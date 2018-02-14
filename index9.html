@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<button onclick="myFunction ()">Нажми меня, please!</button>
+		<p id="demo">admin</p>
+		<p id="demo2">name</p>
+		<script>
+		var admin;
+		var name;
+		document.write("<br>"+"admin"+"<br>");
+		document.write("name"+"<br>");
+		var name="Виталий Валентинович";
+		var admin=name;
+		alert(admin);
+		function myFunction () {
+		var admin="Никита Анатольевич";
+		var name="Виталий Валeнтинович";
+		document.getElementById("demo").innerHTML=admin;
+		document.getElementById("demo2").innerHTML=name;
+		}
+		</script>
+	</body>
+</html>
