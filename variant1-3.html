@@ -1,0 +1,38 @@
+<!DOCKTYPE html>
+	<html>
+		<head>
+			<script src="jQuery\jquery-1.9.1.min.js"></script>
+			<script>
+				$(document).ready(function () {
+					$("button").click(function () {
+						var div = $("#abzac33");
+						div.animate({left:'100px'}, "slow");
+						var div = $("#abzac35");
+						div.animate({left:'100px'}, "slow");
+					});
+					$("div").ready(function () {
+						$("img").click(function () {
+							$(".1img").animate({marginTop: '30px'}, "slow");
+							$(".2img").animate({marginTop: '30px'}, "slow");
+							$(".3img").animate({marginTop: '30px'}, "slow");
+							$(".4img").animate({marginTop: '30px'}, "slow");
+							$(".5img").animate({marginTop: '30px'}, "slow");
+						});
+					});
+				});
+			</script>
+		</head>
+		<body>
+			<button>Запустить анимацию!</button>
+			<p style="width:400px;height:30px;position:absolute;">Первый абзац.</p><br><br><br><br>
+			<div class="1img"><img src="WD3.jpg" style="width:400px;height:30px;position:absolute;"></div><br><br><br>
+			<p style="width:400px;height:30px;position:absolute;">Второй абзац.</p><br><br><br>
+			<div class="2img"><img src="WD3.jpg" style="width:400px;height:30px;position:absolute;"></div><br><br><br>
+			<p id="abzac33" style="width:400px;height:30px;position:absolute;">Третий абзац.</p><br><br><br>
+			<div class="3img"><img src="WD3.jpg" style="width:400px;height:30px;position:absolute;"></div><br><br><br>
+			<p style="width:400px;height:30px;position:absolute;">Четвёртый абзац.</p><br><br><br>
+			<div class="4img"><img src="WD3.jpg" style="width:400px;height:30px;position:absolute;"></div><br><br><br>
+			<p id="abzac35" style="width:400px;height:30px;position:absolute;">Пятый абзац.</p><br><br><br>
+			<div class="5img"><img src="WD3.jpg" style="width:400px;height:30px;position:absolute;"></div>
+		</body>
+	</html>
